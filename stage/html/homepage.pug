@@ -11,12 +11,13 @@ html(lang="en")
     .page.home-page
       include pug/layout/slider
       .content-area 
-        h1 #{pageTitle}
+        include pug/layout/header
+        .content
+          h1 #{pageTitle}
+          
+
+    include pug/layout/scripts
 
 
 
 
-
-
-
-script(src = "http://localhost:35729/livereload.js")
