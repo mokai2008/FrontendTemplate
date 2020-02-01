@@ -3,12 +3,34 @@
   <head>
     <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Homepage</title>
+    <title>Homepage</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/main.css"/>
   </head>
   <body>
     <div class="page home-page">
-      <div class="sidebar">Slider</div>
+      <div class="sidebar">
+        <div class="logo-area">Moka</div>
+        <ul class="links-area list-unstyled">
+          <li><a href="#">HomePage</a></li>
+          <li><a href="#">
+               Forms<i class="fa fa-angle-right toggle-submenu"></i></a>
+            <ul class="child-links list-unstyled">
+              <li><a href="#">input</a></li>
+              <li><a href="#">Textarea</a></li>
+              <li><a href="#">checkbox</a></li>
+              <li><a href="#">radio</a></li>
+            </ul>
+          </li>
+          <li><a href="#">
+               Misc<i class="fa fa-angle-right toggle-submenu"></i></a>
+            <ul class="child-links list-unstyled">
+              <li><a href="#">Loading</a></li>
+              <li><a href="#">Breadcrumbs</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
       <div class="content-area"> 
         <div class="header"><i class="fas fa-exchange-alt fa-lg toggle-sidebar"></i></div>
         <div class="content">
@@ -18,7 +40,8 @@
     </div>
     <script src="http://localhost:35729/livereload.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="src"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
