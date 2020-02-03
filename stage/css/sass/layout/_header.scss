@@ -5,17 +5,19 @@
     cursor: pointer;
   }
 
+  .header-icon {
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #555;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
   .notification-container {
     display: inline-block;
     margin-left: 20px;
 
-    i {
-      background-color: #f9f9f9;
-      border-radius: 50%;
-      cursor: pointer;
-      color: #555;
-      padding: 10px;
-    }
 
     .dropdown-menu{
       min-width: 600px;
