@@ -1,2 +1,24 @@
 .header
   i.fas.fa-exchange-alt.fa-lg.toggle-sidebar
+  .notification-container
+   i.fas.fa-bell#notifications(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+    
+   .dropdown-menu(aria-labelledby='notifications')
+     .noti-head
+      | Notifications 
+      span 50
+     .noti-content 
+      ul.list-unstyled
+        li
+          i.fas.fa-edit.fa-lg
+          | You Got email from Bla bla bla 
+        li
+          i.fas.fa-money.fa-lg
+          | You Got email from Bla bla bla 
+        li
+          i.fas.fa-edit.fa-lg
+          | You Got email from Bla bla bla 
+        li
+          i.fas.fa-edit.fa-lg
+          | You Got email from Bla bla bla 
+     .noti-foot: a(href="#") View All Notifications

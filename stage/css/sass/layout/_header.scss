@@ -1,7 +1,67 @@
 .header {
   background-color: #Fff;
-  padding: 15px;
+  padding: 20px;
   .toggle-sidebar {
     cursor: pointer;
+  }
+
+  .notification-container {
+    display: inline-block;
+    margin-left: 20px;
+
+    i {
+      background-color: #f9f9f9;
+      border-radius: 50%;
+      cursor: pointer;
+      color: #555;
+      padding: 10px;
+    }
+
+    .dropdown-menu{
+      min-width: 600px;
+      border: none;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: -20px;
+        left: 6px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent #333 transparent;
+      }
+
+      .noti-head {
+        background-color: #333;
+        color: #fff;
+        padding: 15px;
+
+        span {
+          float: right;
+        }
+      }
+
+      .noti-content {
+        li {
+          padding: 10px;
+        }
+        
+        i {
+          margin-right: 10px;
+        }
+      }
+
+      .noti-foot {
+        a{
+        display: block;
+        padding: 10px;
+        border-top: 1px solid #EEE;
+        text-align: center;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      }
+    }
   }
 }

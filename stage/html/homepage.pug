@@ -9,9 +9,9 @@ html(lang="en")
       include pug/layout/slider
       .content-area 
         include pug/layout/header
-        .content
-          h1 #{pageTitle}
-          
+        .container-fluid
+          .content
+            include pug/components/pagehead
 
     include pug/layout/scripts
 

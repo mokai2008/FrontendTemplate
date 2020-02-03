@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Homepage</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>Homepage</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/main.css"/>
   </head>
@@ -32,9 +34,29 @@
         </ul>
       </div>
       <div class="content-area"> 
-        <div class="header"><i class="fas fa-exchange-alt fa-lg toggle-sidebar"></i></div>
-        <div class="content">
-          <h1>Homepage</h1>
+        <div class="header"><i class="fas fa-exchange-alt fa-lg toggle-sidebar"></i>
+          <div class="notification-container"><i class="fas fa-bell" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+            <div class="dropdown-menu" aria-labelledby="notifications">
+              <div class="noti-head">Notifications <span>50</span></div>
+              <div class="noti-content"> 
+                <ul class="list-unstyled">
+                  <li><i class="fas fa-edit fa-lg"></i>You Got email from Bla bla bla </li>
+                  <li><i class="fas fa-money fa-lg"></i>You Got email from Bla bla bla </li>
+                  <li><i class="fas fa-edit fa-lg"></i>You Got email from Bla bla bla </li>
+                  <li><i class="fas fa-edit fa-lg"></i>You Got email from Bla bla bla </li>
+                </ul>
+              </div>
+              <div class="noti-foot"><a href="#">View All Notifications</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="content">
+            <div class="page-head">
+              <h1 class="page-title">Homepage</h1>
+              <p class="page-description lead">This is the description of Homepage</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
