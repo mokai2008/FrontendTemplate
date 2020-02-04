@@ -28,3 +28,9 @@ $('.toggle-fullscreen').on('click', function() {
     }  }
 });
 
+// toggle settings-box
+
+$('.toggle-settings').on('click', function() {
+  $(this).find("i").toggleClass('fa-spin');
+  $(this).parent().toggleClass('hide-settings');
+})
