@@ -1,7 +1,8 @@
 .header
-  i.fas.fa-exchange-alt.fa-lg.toggle-sidebar
+  i.fa.fa-exchange.fa-lg.toggle-sidebar
   .dropdown.notification-container
-   i.fas.fa-bell.header-icon#notifications(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+   
+   i.fa.fa-bell.header-icon#notifications(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
     
     .dropdown-menu(aria-labelledby='notifications')
      .noti-head
@@ -10,16 +11,45 @@
      .noti-content 
       ul.list-unstyled
         li
-          i.fas.fa-edit.fa-lg
+          i.fa.fa-edit.fa-lg
           | You Got email from Bla bla bla 
         li
-          i.fas.fa-money.fa-lg
+          i.fa.fa-money.fa-lg
           | You Got email from Bla bla bla 
         li
-          i.fas.fa-edit.fa-lg
+          i.fa.fa-edit.fa-lg
           | You Got email from Bla bla bla 
         li
-          i.fas.fa-edit.fa-lg
+          i.fa.fa-edit.fa-lg
           | You Got email from Bla bla bla 
      .noti-foot: a(href="#") View All Notifications
-   i.fas.fa-expand.fa-lg.toggle-fullscreen.header-icon
+   i.fa.fa-expand.fa-lg.toggle-fullscreen.header-icon
+  .dropdown.usermenu-container
+   .usermenu#usermenu(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+    img.avatar.rounded-circle(src="imgs/005.jpg", alt="") 
+    span.user Michael Gad
+    i.fa.fa-angle-down
+   .dropdown-menu.dropdown-menu-right(aria-labelledby='usermenu')
+    .user-info
+      h3 Michael Gad
+      p Premium member
+    hr 
+    ul.activities-list.list-unstyled
+      li Added comment on post "how to make an article"
+      li created post on category science
+      li created charts on chartes list 
+      li created charts on chartes list 
+    hr
+    .row.usermenu-links
+      .col
+        .link-box
+          i.fa.fa-cog.fa-lg.fa-fw
+          span settings
+      .col
+        .link-box
+          i.fa.fa-user.fa-lg.fa-fw
+          span My Profile
+      .col
+        .link-box
+          i.fa.fa-sign-out.fa-lg.fa-fw
+          span Logout

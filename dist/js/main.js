@@ -20,10 +20,11 @@ $('.toggle-fullscreen').on('click', function() {
     if(document.documentElement.requestFullscreen) {
       document.documentElement.requestFullscreen()
     }
-  } else {
+   else {
     if(document.documentElement.exitFullscreen) {
       document.documentElement.exitFullscreen();
     }
-  }
+
+    }  }
 });
 

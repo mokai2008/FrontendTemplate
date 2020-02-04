@@ -66,4 +66,64 @@
       }
     }
   }
+
+  .usermenu-container {
+    float: right;
+    .usermenu {
+      cursor: pointer;
+      .avatar {
+        width: 40px;
+        height: 40px;
+      }
+
+      .user {
+        font-weight: bold;
+        color: #777;
+        margin: 0 10px;
+      }
+    }
+
+    .dropdown-menu{
+      min-width: 600px;
+      border: none;
+      padding: 20px;
+      top: 10px !important;
+      border: 1px solid #DDD;
+      &:before {
+        content: "";
+        position: absolute;
+        top: -20px;
+        right: 40px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent #DDD transparent;
+      }
+
+      .user-info {
+        h3 {
+          font-weight: bold;
+        }
+
+        p {
+          color: #888;
+        }
+      }
+
+      .activities-list {
+        li {
+          padding: 10px;
+        }
+      }
+
+      .usermenu-links {
+        .link-box {
+          background-color: #f3f3f3;
+          padding: 10px;
+          text-align: center;
+          border-radius: 6px;
+        }
+      }
+
+    }
+  }
 }
